@@ -14,4 +14,4 @@ jobs:
         with:
           aws-region: us-east-1
           role-to-assume: ${{ secrets.AWS_IAM_ROLE_ARN }}
-      - run: aws s3 ls s3://oidc-example
+      - run: aws s3 ls s3://aws-intro-sample-yamada-upload
